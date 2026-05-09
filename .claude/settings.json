@@ -17,7 +17,12 @@
       "PowerShell(git commit -m \"Fix: move public assets to docs/public/ and update fetch paths\")",
       "PowerShell(if \\($?\\) { \"done\" })",
       "WebFetch(domain:localhost)",
-      "PowerShell(Get-Process -Name \"node\" -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowTitle -eq \"\" } | Stop-Process -Force -ErrorAction SilentlyContinue)"
+      "PowerShell(Get-Process -Name \"node\" -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowTitle -eq \"\" } | Stop-Process -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(git rm -r --cached docs/.vitepress/cache/ 2>$null)",
+      "PowerShell(git add .gitignore)",
+      "PowerShell(git commit -m \"Add i18n system with language switcher \\(zh/en\\), update all content to match heartopia.gg structure\")",
+      "PowerShell(git add .claude/settings.json)",
+      "PowerShell(git commit -m \"Update Claude settings\")"
     ]
   }
 }
