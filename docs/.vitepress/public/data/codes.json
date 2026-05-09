@@ -1,0 +1,44 @@
+[
+  {
+    "code": "HEART2024",
+    "reward": "金币×500 + 钻石×50",
+    "expiryDate": "2026-12-31",
+    "status": "valid"
+  },
+  {
+    "code": "WELCOME520",
+    "reward": "限定头像框 + 金币×200",
+    "expiryDate": "2026-06-30",
+    "status": "valid"
+  },
+  {
+    "code": "SPRINGFUN",
+    "reward": "春季种子包×3",
+    "expiryDate": "2026-05-31",
+    "status": "valid"
+  },
+  {
+    "code": "FISHMASTER",
+    "reward": "高级鱼竿×1",
+    "expiryDate": "2026-08-15",
+    "status": "valid"
+  },
+  {
+    "code": "NEWYEAR2025",
+    "reward": "钻石×100 + 限定装饰",
+    "expiryDate": "2026-02-01",
+    "status": "expired"
+  },
+  {
+    "code": "XMASGIFT",
+    "reward": "圣诞限定家具套装",
+    "expiryDate": "2025-12-25",
+    "status": "expired"
+  },
+  {
+    "code": "THANKS100",
+    "reward": "金币×1000",
+    "expiryDate": "2025-11-30",
+    "status": "expired"
+  }
+]

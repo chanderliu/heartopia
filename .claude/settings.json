@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(git -C \"e:\\\\Desktop\\\\claude code\\\\heartopia\" status)",
+      "PowerShell(cmd /c \"dir /a:h `\"e:\\\\Desktop\\\\claude code\\\\heartopia`\"\")",
+      "PowerShell(Get-ChildItem \"docs\\\\.vuepress\\\\components\\\\\" | ForEach-Object { Copy-Item $_.FullName \"docs\\\\.vitepress\\\\theme\\\\components\\\\\" -Force }; Get-ChildItem \"docs\\\\.vuepress\\\\public\\\\data\\\\\" | ForEach-Object { Copy-Item $_.FullName \"docs\\\\.vitepress\\\\public\\\\data\\\\\" -Force }; Get-ChildItem \"docs\\\\.vuepress\\\\public\\\\images\\\\\" | ForEach-Object { Copy-Item $_.FullName \"docs\\\\.vitepress\\\\public\\\\images\\\\\" -Force }; Remove-Item -Recurse -Force \"docs\\\\.vuepress\")",
+      "PowerShell(git ls-tree --name-only -r master)",
+      "PowerShell(git add -A)",
+      "PowerShell(git commit -m \"Initial commit: �Ķ�С�� Wiki \\(VitePress\\)\")"
+    ]
+  }
+}

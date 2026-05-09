@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm install)",
+      "PowerShell(Get-ChildItem -Recurse -File \"docs\\\\.vitepress\" | ForEach-Object { $_.FullName.Replace\\(\"E:\\\\Desktop\\\\claude code\\\\heartopia\\\\\", \"\"\\) })",
+      "PowerShell(Get-ChildItem -Recurse \"docs\\\\.vitepress\\\\public\" | ForEach-Object { $_.FullName.Replace\\(\"E:\\\\Desktop\\\\claude code\\\\heartopia\\\\\", \"\"\\) })"
+    ],
+    "additionalDirectories": [
+      "E:\\Desktop\\claude code\\heartopia\\docs\\.vitepress\\public"
+    ]
+  }
+}
