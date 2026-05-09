@@ -1,34 +1,10 @@
 [
-  {
-    "q": "如何快速获得金币？",
-    "a": "最有效的方法是种植高价值作物（如南瓜、西瓜）并加工成烹饪品出售。每天钓鱼也能稳定收入300-1500G。参与节日活动往往有额外金币奖励。"
-  },
-  {
-    "q": "兑换码在哪里输入？",
-    "a": "进入游戏后，点击右上角「设置」→「兑换码」，输入兑换码即可领取奖励。注意兑换码区分大小写。"
-  },
-  {
-    "q": "如何提升与NPC的好感度？",
-    "a": "每天与NPC对话（+5好感），赠送他们喜欢的礼物（+15好感），完成NPC任务（+30好感）。生日当天送礼好感度翻倍！"
-  },
-  {
-    "q": "作物为什么会枯萎？",
-    "a": "作物在换季时会枯萎（每个季节最后一天记得收获）。另外，如果超过成熟时间太久未收获也会枯萎。温室中的作物不受季节影响。"
-  },
-  {
-    "q": "如何解锁新的钓鱼点？",
-    "a": "钓鱼等级提升后会自动解锁新钓点。Lv1-河岸，Lv3-码头，Lv5-湖泊，Lv8-沼泽。使用高级鱼竿也能在原有钓点钓到更好的鱼。"
-  },
-  {
-    "q": "如何加入或创建小镇？",
-    "a": "达到等级10后，在「社交」→「小镇」中可以搜索加入已有小镇，或花费5000金币创建自己的小镇。小镇成员可以一起完成集体目标获得奖励。"
-  },
-  {
-    "q": "游戏支持哪些平台？",
-    "a": "心动小镇目前支持 iOS、Android 手机平台，也可以通过 BlueStacks 等模拟器在 PC 上游玩。各平台数据互通。"
-  },
-  {
-    "q": "如何备份游戏进度？",
-    "a": "在「设置」→「账号」中绑定邮箱或社交账号即可自动云存档。建议定期手动备份，以防数据丢失。更换设备时使用同一账号登录即可恢复进度。"
-  }
+  { "q": "How do I redeem codes in Heartopia?", "a": "Open the Settings menu → tap 'Gift Code' → enter the code exactly as shown → tap 'Confirm' to receive your rewards. Codes are case-sensitive, so copy them exactly as listed." },
+  { "q": "How do I unlock my home plot?", "a": "Progress through the main story quests given by Mayor Atara at Town Hall. The home plot unlocks after completing the introductory quest chain, typically around D.G. Level 3-5." },
+  { "q": "Is Heartopia free to play?", "a": "Yes! Heartopia is completely free to play. There are optional in-app purchases for cosmetics and convenience items, but all core gameplay, story content, and events are accessible without spending money." },
+  { "q": "What platforms can I play Heartopia on?", "a": "Heartopia is available on iOS (App Store), Android (Google Play), and PC via Steam. The game supports cross-platform play, so you can play with friends regardless of which platform they're on." },
+  { "q": "How do I add and play with friends?", "a": "Open the Social menu from the main screen → tap 'Add Friend' → search by player ID or username → send a friend request. Once accepted, you can visit each other's homes, attend parties, and trade items. Heartopia supports up to 4-player multiplayer." },
+  { "q": "How often do in-game events occur?", "a": "Heartopia typically runs seasonal events (Spring, Summer, Fall, Winter festivals), monthly competitions, and weekly welfare events. Check the Events page regularly or follow the official social media accounts for announcements." },
+  { "q": "How many hobbies are there and which should I start with?", "a": "There are 7 core hobbies: Fishing, Gardening, Birdwatching, Cooking, Bug Catching, Cat Raising, and Dog Raising. Start with Fishing (taught by Vanya at the River Pier at Level 1) — it's the quickest way to earn early-game gold." },
+  { "q": "Can I play Heartopia offline?", "a": "Heartopia requires an internet connection to play. This ensures your progress is saved to the cloud and enables multiplayer features, real-time events, and cross-platform synchronization." }
 ]

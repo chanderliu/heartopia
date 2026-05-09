@@ -1,12 +1,70 @@
 ---
 layout: page
-title: 心动小镇 Wiki
+titleTemplate: 'Heartopia Wiki — Complete Database & Guides'
 ---
 
 <HomeHero />
 
+<StatsBar />
+
+---
+
+## Start With These Eight Heartopia Routes
+
+These eight pages handle the heaviest traffic — if you landed here from Google, start here:
+
 <QuickStartCards />
 
-::: tip 提示
-本站持续更新中，记得收藏关注！如有问题请通过 [联系我们](/contact/) 提交反馈。
+---
+
+## Active Codes Snapshot
+
+<CodeList />
+
+---
+
+## Hobbies Overview
+
+Every hobby in Heartopia — unlock requirements and what each one offers:
+
+<HobbyGrid />
+
+---
+
+## Database Quick Links
+
+<DatabaseGrid />
+
+---
+
+## Popular Guides
+
+<PopularGuides />
+
+---
+
+## Interactive Tools & Calculators
+
+<ToolCardGrid />
+
+---
+
+## Villagers & NPC Guide
+
+<NpcCardGrid />
+
+---
+
+## Frequently Asked Questions
+
+<FaqAccordion />
+
+---
+
+## Community
+
+<CommunitySection />
+
+::: tip Stay Updated
+This wiki is updated daily. If you find any errors or missing information, please [submit a correction](/heartopia/contact/).
 :::

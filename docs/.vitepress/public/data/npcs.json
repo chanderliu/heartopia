@@ -1,7 +1,19 @@
 [
-  { "name": "小花", "location": "花店", "job": "花店老板", "birthday": "春3日", "loves": ["玫瑰", "郁金香", "向日葵"], "likes": ["任意花朵"], "hates": ["杂草", "枯枝"] },
-  { "name": "老渔夫", "location": "码头", "job": "渔夫", "birthday": "夏10日", "loves": ["金鱼", "龙鱼", "金枪鱼"], "likes": ["任意鱼类"], "hates": ["垃圾", "海草"] },
-  { "name": "铁匠王", "location": "铁匠铺", "job": "铁匠", "birthday": "冬5日", "loves": ["钻石", "金矿", "秘银"], "likes": ["任意矿石"], "hates": ["木材", "花朵"] },
-  { "name": "厨师长", "location": "餐厅", "job": "厨师", "birthday": "秋15日", "loves": ["松露", "鱼子酱", "龙虾"], "likes": ["任意食材"], "hates": ["过期食物", "野草"] },
-  { "name": "镇长", "location": "镇政府", "job": "镇长", "birthday": "夏1日", "loves": ["葡萄酒", "奶酪", "工艺品"], "likes": ["任意加工品"], "hates": ["生鱼", "矿石"] }
+  { "name": "Blanc", "role": "Gardening Mentor & Shop Owner", "location": "Gardening Shop", "loves": ["Rare Flowers", "Seeds", "Crops", "Bugs"], "birthday": "未知", "category": "mentor" },
+  { "name": "Vanya", "role": "Fishing Mentor", "location": "River Pier", "loves": ["Any Fish", "Seafood", "Fishing Supplies"], "dislikes": ["Trash", "Ores"], "birthday": "未知", "category": "mentor" },
+  { "name": "Massimo", "role": "Cooking Mentor", "location": "Town Square / Restaurant", "loves": ["Cooked Dishes", "Rare Ingredients", "Recipes"], "birthday": "未知", "category": "mentor" },
+  { "name": "Naniwa", "role": "Bug Catching Mentor", "location": "Forest", "loves": ["Rare Specimens", "Any Insects"], "birthday": "未知", "category": "mentor" },
+  { "name": "Bailey J", "role": "Birdwatching Mentor", "location": "Nature Areas / Town Park", "loves": ["High-Quality Bird Photos", "Nature Items"], "birthday": "未知", "category": "mentor" },
+  { "name": "Bill", "role": "Advanced Fishing Mentor", "location": "Fishing Village", "loves": ["Fish", "Seafood"], "dislikes": ["Trash"], "birthday": "未知", "category": "mentor" },
+  { "name": "Mrs. Joan", "role": "Pet Shop Owner", "location": "Pet Shop", "birthday": "未知", "category": "shopkeeper" },
+  { "name": "Bob", "role": "Architect", "location": "Construction Workshop", "loves": ["Furniture", "Crafting Recipes", "Wood", "Stone"], "birthday": "未知", "category": "shopkeeper" },
+  { "name": "Dorothee", "role": "Clothing Store Owner", "location": "Residential Street (South)", "birthday": "未知", "category": "shopkeeper" },
+  { "name": "Ka Ching", "role": "General Store Owner", "location": "Town Center", "birthday": "未知", "category": "shopkeeper" },
+  { "name": "Patti", "role": "Artist", "location": "Town", "loves": ["Toys", "Candy", "Art Supplies"], "birthday": "July 15", "category": "townsfolk", "description": "A lively young girl who loves painting" },
+  { "name": "Cassie", "role": "Mysterious Character", "location": "Forest", "birthday": "未知", "category": "townsfolk", "description": "Often found in the forest" },
+  { "name": "Eric", "role": "Resident", "location": "Town", "birthday": "未知", "category": "townsfolk", "description": "Friendly resident; may request items via Daily Delegations" },
+  { "name": "Atara", "role": "Mayor of Whale Island", "location": "Town Hall", "birthday": "未知", "category": "townsfolk", "description": "Gives Main Story Quests" },
+  { "name": "Star Spirit", "role": "Mystical Guide", "location": "Unknown", "birthday": "未知", "category": "special", "description": "Provides guidance and Main Story Quests; rewards D.G. Experience & Unique Furniture" },
+  { "name": "Albert Jr.", "role": "Roaming Merchant", "location": "Roams town", "birthday": "未知", "category": "special", "description": "The sole NPC who buys items from players" },
+  { "name": "Oak-Oak", "role": "Wandering Oak", "location": "Forest", "birthday": "未知", "category": "special", "description": "A mysterious walking tree entity; quest: Astralis in Forest" }
 ]

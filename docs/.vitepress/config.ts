@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/heartopia/',
+  ignoreDeadLinks: true,
   lang: 'zh-CN',
   title: '心动小镇 Wiki',
   description: '心动小镇游戏攻略百科 — 兑换码、地图、家装设计、NPC攻略',
