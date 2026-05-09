@@ -13,7 +13,7 @@
 
     <div class="map-container" style="position:relative; background:var(--vp-c-bg-alt); border-radius:1rem; overflow:hidden; aspect-ratio:16/10; min-height:360px;">
       <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:var(--vp-c-text-3); font-size:1.2rem;">
-        🗺️ Game Map
+        🗺️ {{ locale === 'zh' ? '游戏地图' : 'Game Map' }}
       </div>
 
       <div
@@ -42,10 +42,10 @@
   </div>
 </template>
 
-<script setup>
-import { ref, computed, onMounted } from 'vue'
+<script setup lang="ts">
+import { ref, computed, watch, onMounted } from 'vue'
 import { useI18n } from '../i18n'
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
 const markers = ref([])
 const selected = ref(null)
@@ -95,13 +95,23 @@ function saveFilters() {
   localStorage.setItem('heartopia-map-filters', JSON.stringify(activeFilters.value))
 }
 
-onMounted(async () => {
+async function loadMarkers(lang: string) {
   try {
-    const res = await fetch('/heartopia/map-markers.json')
+    const res = await fetch(`/heartopia/map-markers-${lang}.json`)
+    if (!res.ok) throw new Error('fetch failed')
     markers.value = await res.json()
-  } catch (e) {
-    console.error('Failed to load map markers:', e)
+  } catch {
+    try {
+      const res = await fetch('/heartopia/map-markers.json')
+      markers.value = await res.json()
+    } catch (e) {
+      console.error('Failed to load map markers:', e)
+    }
   }
+}
+
+onMounted(() => {
+  loadMarkers(locale.value)
 
   const saved = localStorage.getItem('heartopia-bookmarks')
   if (saved) bookmarkedIds.value = JSON.parse(saved)
@@ -109,6 +119,8 @@ onMounted(async () => {
   const savedFilters = localStorage.getItem('heartopia-map-filters')
   if (savedFilters) activeFilters.value = JSON.parse(savedFilters)
 })
+
+watch(locale, (lang) => loadMarkers(lang))
 </script>
 
 <style scoped>

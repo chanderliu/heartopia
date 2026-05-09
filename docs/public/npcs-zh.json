@@ -1,0 +1,19 @@
+[
+  { "name": "布兰克", "role": "园艺导师兼商店老板", "location": "园艺商店", "description": "出售种子、肥料和花盆。赠送水壶和番茄种子。教授园艺基础。", "category": "mentor" },
+  { "name": "万尼亚", "role": "钓鱼导师", "location": "河边码头", "description": "提供1-5级钓鱼新手任务。教授钓鱼基础。喜欢鱼类和海鲜。", "category": "mentor" },
+  { "name": "马西莫", "role": "烹饪导师", "location": "城镇广场/餐厅", "description": "出售高级食谱和稀有香料。教授烹饪技巧。喜欢熟食和稀有食材。", "category": "mentor" },
+  { "name": "奈庭", "role": "捕虫导师", "location": "森林", "description": "出售捕虫网升级和昆虫笼。提供「捕捉5只蝴蝶」的初始任务。", "category": "mentor" },
+  { "name": "贝利 J", "role": "观鸟导师", "location": "自然区/城镇公园", "description": "出售双筒望远镜和鸟食。提供初始望远镜和观鸟相机。", "category": "mentor" },
+  { "name": "比尔", "role": "高级钓鱼导师", "location": "渔村", "description": "教授海钓技巧。出售鱼饵和鱼竿升级。喜欢稀有鱼类。", "category": "mentor" },
+  { "name": "琼太太", "role": "宠物店老板", "location": "宠物店", "description": "出售宠物（猫和狗）及宠物用品。D.G.等级12级后解锁。出售宠物食品、玩具和饰品。", "category": "shopkeeper" },
+  { "name": "鲍勃", "role": "建筑师", "location": "建筑工坊", "description": "出售家具、制作配方、木材和石料。负责房屋扩建和蓝图。", "category": "shopkeeper" },
+  { "name": "多萝西", "role": "服装店老板", "location": "住宅街（南）", "description": "出售上衣、裤子、鞋子、帽子和饰品，每日轮换库存。提供解锁自定义的任务。", "category": "shopkeeper" },
+  { "name": "卡钦", "role": "杂货店老板", "location": "城镇中心", "description": "出售维修工具、烟花、拼图和染料。杂项物品的首选商店。", "category": "shopkeeper" },
+  { "name": "帕蒂", "role": "艺术家", "location": "城镇", "description": "一个活泼爱画画的女孩。主角的青梅竹马。生日：7月15日。", "category": "townsfolk" },
+  { "name": "卡西", "role": "神秘角色", "location": "森林", "description": "一个安静神秘的人物，常在森林深处出现。可能提供特殊任务。", "category": "townsfolk" },
+  { "name": "埃里克", "role": "居民", "location": "城镇", "description": "友善的城镇居民，每天发布委托任务——每天完成5个委托可获得金币和物品。", "category": "townsfolk" },
+  { "name": "阿塔拉", "role": "鲸鱼岛镇长", "location": "市政厅", "description": "振兴小镇的镇长。发布主线任务和居民请求教学。", "category": "townsfolk" },
+  { "name": "星灵", "role": "神秘向导", "location": "未知", "description": "提供主线故事引导。奖励D.G.经验和独特家具。在关键剧情时刻出现。", "category": "special" },
+  { "name": "小阿尔伯特", "role": "流浪商人", "location": "城镇中游走（查看地图标记）", "description": "唯一从玩家手中购买物品的NPC！在城镇中游走——追踪地图标记出售你的物品。", "category": "special" },
+  { "name": "橡橡", "role": "流浪橡树", "location": "森林", "description": "一棵神秘会走路的树。提供「森林中的星灵」任务。每天奖励流浪橡木。", "category": "special" }
+]

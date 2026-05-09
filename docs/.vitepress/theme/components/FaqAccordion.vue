@@ -12,19 +12,20 @@
   </div>
 </template>
 
-<script setup>
-import { ref, onMounted } from 'vue'
+<script setup lang="ts">
+import { ref, watch, onMounted } from 'vue'
+import { useI18n } from '../i18n'
 
+const { locale } = useI18n()
 const faqs = ref([])
 const activeIndex = ref(-1)
 
-function toggle(i) {
+function toggle(i: number) {
   activeIndex.value = activeIndex.value === i ? -1 : i
 }
 
-onMounted(async () => {
+async function loadFaqs(lang: string) {
   try {
-    const lang = localStorage.getItem('heartopia-lang') || 'en'
     const res = await fetch(`/heartopia/faq-${lang}.json`)
     if (res.ok) {
       faqs.value = await res.json()
@@ -35,5 +36,8 @@ onMounted(async () => {
   } catch (e) {
     console.error('Failed to load FAQ:', e)
   }
-})
+}
+
+onMounted(() => loadFaqs(locale.value))
+watch(locale, (lang) => loadFaqs(lang))
 </script>

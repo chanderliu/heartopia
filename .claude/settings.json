@@ -22,7 +22,8 @@
       "PowerShell(git add .gitignore)",
       "PowerShell(git commit -m \"Add i18n system with language switcher \\(zh/en\\), update all content to match heartopia.gg structure\")",
       "PowerShell(git add .claude/settings.json)",
-      "PowerShell(git commit -m \"Update Claude settings\")"
+      "PowerShell(git commit -m \"Update Claude settings\")",
+      "PowerShell(git fetch origin gh-pages)"
     ]
   }
 }

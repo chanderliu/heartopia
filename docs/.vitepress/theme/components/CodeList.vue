@@ -17,10 +17,10 @@
   </div>
 </template>
 
-<script setup>
-import { ref, computed, onMounted } from 'vue'
+<script setup lang="ts">
+import { ref, computed, watch, onMounted } from 'vue'
 import { useI18n } from '../i18n'
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
 const codes = ref([])
 const lastUpdated = ref('')
@@ -33,25 +33,42 @@ const tabs = computed(() => [
   { key: 'expired', label: t('codes.expired') },
 ])
 
-const statusLabel = (s) => {
-  const map = { new: 'NEW', active: 'Active', popular: 'Popular', expired: 'Expired' }
+const statusLabel = (s: string) => {
+  const map: Record<string, string> = {
+    new: t('codes.new'),
+    active: t('codes.active'),
+    popular: t('codes.popular'),
+    expired: t('codes.expired'),
+  }
   return map[s] || s
 }
 
 const displayedCodes = computed(() => {
   if (activeTab.value === 'active') {
-    return codes.value.filter(c => c.status !== 'expired')
+    return codes.value.filter((c: any) => c.status !== 'expired')
   }
-  return codes.value.filter(c => c.status === activeTab.value)
+  return codes.value.filter((c: any) => c.status === activeTab.value)
 })
 
-onMounted(async () => {
+async function loadCodes(lang: string) {
   try {
-    const res = await fetch('/heartopia/codes.json')
+    const res = await fetch(`/heartopia/codes-${lang}.json`)
+    if (!res.ok) throw new Error('fetch failed')
     codes.value = await res.json()
-    lastUpdated.value = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
-  } catch (e) {
-    console.error('Failed to load codes:', e)
+  } catch {
+    try {
+      const res = await fetch('/heartopia/codes.json')
+      codes.value = await res.json()
+    } catch (e) {
+      console.error('Failed to load codes:', e)
+    }
   }
-})
+  lastUpdated.value = new Date().toLocaleDateString(
+    lang === 'zh' ? 'zh-CN' : 'en-US',
+    { month: 'long', day: 'numeric', year: 'numeric' }
+  )
+}
+
+onMounted(() => loadCodes(locale.value))
+watch(locale, (lang) => loadCodes(lang))
 </script>

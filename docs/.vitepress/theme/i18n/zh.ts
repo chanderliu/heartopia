@@ -206,4 +206,14 @@ export const zh: Record<string, any> = {
     entries: '条',
     viewAll: '查看全部',
   },
+  theme: {
+    editLink: '在 GitHub 上编辑此页',
+    lastUpdated: '最后更新',
+    prev: '上一页',
+    next: '下一页',
+    outline: '本页目录',
+  },
+  calculator: '利润计算器',
+  cropPlanner: '作物规划器',
+  itemsDatabase: '物品数据库',
 }

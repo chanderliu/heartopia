@@ -206,4 +206,14 @@ export const en = {
     entries: 'entries',
     viewAll: 'View All',
   },
+  theme: {
+    editLink: 'Edit this page on GitHub',
+    lastUpdated: 'Last updated',
+    prev: 'Previous',
+    next: 'Next',
+    outline: 'On this page',
+  },
+  calculator: 'Profit Calculator',
+  cropPlanner: 'Crop Planner',
+  itemsDatabase: 'Items Database',
 }

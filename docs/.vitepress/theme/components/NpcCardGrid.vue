@@ -12,24 +12,33 @@
   </div>
 </template>
 
-<script setup>
-import { ref, onMounted } from 'vue'
+<script setup lang="ts">
+import { ref, watch, onMounted } from 'vue'
+import { useI18n } from '../i18n'
 
+const { locale } = useI18n()
 const npcs = ref([])
 
-const emojiMap = {
-  'Blanc': '🌸', 'Vanya': '🎣', 'Massimo': '👨‍🍳', 'Naniwa': '🦋', 'Bailey J': '🐦',
-  'Bill': '⚓', 'Mrs. Joan': '🐾', 'Bob': '🏗️', 'Dorothee': '👗', 'Ka Ching': '🛒',
-  'Patti': '🎨', 'Cassie': '🌿', 'Eric': '🏘️', 'Atara': '🏛️', 'Star Spirit': '✨',
-  'Albert Jr.': '🎒', 'Oak-Oak': '🌳'
+async function loadNpcs(lang: string) {
+  try {
+    const res = await fetch(`/heartopia/npcs-${lang}.json`)
+    if (!res.ok) throw new Error('fetch failed')
+    npcs.value = await res.json()
+  } catch {
+    try {
+      const res = await fetch('/heartopia/npcs.json')
+      npcs.value = await res.json()
+    } catch (e) {
+      console.error('Failed to load NPCs:', e)
+    }
+  }
 }
 
-function npcEmoji(npc) { return emojiMap[npc.name] || '👤' }
+onMounted(() => loadNpcs(locale.value))
+watch(locale, (lang) => loadNpcs(lang))
 
-onMounted(async () => {
-  try {
-    const res = await fetch('/heartopia/npcs.json')
-    npcs.value = await res.json()
-  } catch (e) { console.error('Failed to load NPCs:', e) }
-})
+function npcEmoji(npc: { name: string }) {
+  // recognize NPC by English name regardless of locale
+  return npc.name || '👤'
+}
 </script>

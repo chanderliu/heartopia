@@ -23,10 +23,10 @@
   </div>
 </template>
 
-<script setup>
-import { ref, computed, onMounted } from 'vue'
+<script setup lang="ts">
+import { ref, computed, watch, onMounted } from 'vue'
 import { useI18n } from '../i18n'
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
 const events = ref([])
 const selectedMonth = ref('All')
@@ -46,12 +46,21 @@ function typeEmoji(t) {
   return map[t] || '📅'
 }
 
-onMounted(async () => {
+async function loadEvents(lang: string) {
   try {
-    const res = await fetch('/heartopia/events.json')
+    const res = await fetch(`/heartopia/events-${lang}.json`)
+    if (!res.ok) throw new Error('fetch failed')
     events.value = await res.json()
-  } catch (e) {
-    console.error('Failed to load events:', e)
+  } catch {
+    try {
+      const res = await fetch('/heartopia/events.json')
+      events.value = await res.json()
+    } catch (e) {
+      console.error('Failed to load events:', e)
+    }
   }
-})
+}
+
+onMounted(() => loadEvents(locale.value))
+watch(locale, (lang) => loadEvents(lang))
 </script>

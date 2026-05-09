@@ -1,23 +1,39 @@
 <template>
-  <button class="lang-switcher" @click="i18n.toggleLocale()" :title="i18n.t('lang.label')">
-    <span class="lang-icon">{{ i18n.locale.value === 'zh' ? '🌐' : '🌐' }}</span>
-    <span class="lang-text">{{ i18n.t('lang.switch') }}</span>
-  </button>
+  <div class="lang-switcher-wrap">
+    <span class="lang-icon">🌐</span>
+    <select class="lang-select" :value="i18n.locale.value" @change="onChange">
+      <option value="en">English</option>
+      <option value="zh">中文</option>
+    </select>
+  </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useI18n } from '../i18n'
+
 const i18n = useI18n()
+
+function onChange(e: Event) {
+  const target = e.target as HTMLSelectElement
+  i18n.setLocale(target.value as 'en' | 'zh')
+}
 </script>
 
 <style scoped>
-.lang-switcher {
+.lang-switcher-wrap {
   display: flex;
   align-items: center;
-  gap: 0.3rem;
-  padding: 0.3rem 0.75rem;
+  gap: 0.25rem;
+}
+
+.lang-icon {
+  font-size: 0.9rem;
+}
+
+.lang-select {
+  padding: 0.25rem 0.5rem;
   border: 1px solid var(--vp-c-border);
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   background: var(--vp-c-bg-elv);
   color: var(--vp-c-text-1);
   cursor: pointer;
@@ -25,19 +41,16 @@ const i18n = useI18n()
   font-weight: 500;
   font-family: inherit;
   transition: background 0.2s, border-color 0.2s;
-  white-space: nowrap;
+  appearance: auto;
 }
 
-.lang-switcher:hover {
+.lang-select:hover {
   background: var(--vp-c-bg-alt);
   border-color: var(--vp-c-brand-1);
 }
 
-.lang-icon {
-  font-size: 0.9rem;
-}
-
-.lang-text {
-  font-size: 0.8rem;
+.lang-select:focus {
+  outline: none;
+  border-color: var(--vp-c-brand-1);
 }
 </style>
