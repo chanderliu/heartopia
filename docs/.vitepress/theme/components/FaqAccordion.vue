@@ -24,8 +24,14 @@ function toggle(i) {
 
 onMounted(async () => {
   try {
-    const res = await fetch('/heartopia/faq.json')
-    faqs.value = await res.json()
+    const lang = localStorage.getItem('heartopia-lang') || 'en'
+    const res = await fetch(`/heartopia/faq-${lang}.json`)
+    if (res.ok) {
+      faqs.value = await res.json()
+    } else {
+      const fallback = await fetch('/heartopia/faq.json')
+      faqs.value = await fallback.json()
+    }
   } catch (e) {
     console.error('Failed to load FAQ:', e)
   }

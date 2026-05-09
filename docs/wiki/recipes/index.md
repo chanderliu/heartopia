@@ -1,18 +1,18 @@
-# 食谱大全
+# Recipe Database
 
-## 沙拉类
+## Salads
 
-| 食谱 | 食材 | 效果 |
-|------|------|------|
-| 蔬菜沙拉 | 卷心菜×2, 胡萝卜×1 | 体力+30 |
-| 水果沙拉 | 草莓×2, 蓝莓×1 | 体力+25, 加速5分钟 |
+| Recipe | Ingredients | Effect |
+|--------|-------------|--------|
+| Garden Salad | Cabbage ×2, Carrot ×1 | Energy +30 |
+| Fruit Salad | Strawberry ×2, Blueberry ×1 | Energy +25, Speed +5 min |
 
-## 主菜类
+## Main Dishes
 
-| 食谱 | 食材 | 效果 |
-|------|------|------|
-| 烤鱼 | 任意鱼×1, 盐×1 | 体力+50 |
-| 南瓜汤 | 南瓜×1, 牛奶×1 | 体力+80 |
-| 海鲜意面 | 虾×2, 面粉×1 | 体力+100 |
+| Recipe | Ingredients | Effect |
+|--------|-------------|--------|
+| Grilled Fish | Any Fish ×1, Salt ×1 | Energy +50 |
+| Pumpkin Soup | Pumpkin ×1, Milk ×1 | Energy +80 |
+| Seafood Pasta | Shrimp ×2, Flour ×1 | Energy +100 |
 
-*更多食谱持续更新中...*
+*More recipes coming soon...*

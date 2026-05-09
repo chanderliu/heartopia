@@ -1,19 +1,19 @@
-# 物品图鉴
+# Items Database
 
-## 工具类
+## Tools
 
-| 物品 | 获取方式 | 用途 |
-|------|----------|------|
-| 初级鱼竿 | 初始赠送 | 钓鱼 |
-| 铁斧 | 铁匠铺购买 | 砍树 |
-| 金锄头 | 任务奖励 | 耕地 |
+| Item | Source | Use |
+|------|--------|-----|
+| Basic Fishing Rod | Tutorial reward | Fishing |
+| Iron Axe | Blacksmith shop | Wood cutting |
+| Gold Hoe | Quest reward | Tilling soil |
 
-## 材料类
+## Materials
 
-| 物品 | 获取方式 | 用途 |
-|------|----------|------|
-| 木材 | 砍树 | 制作材料 |
-| 石头 | 采矿 | 制作材料 |
-| 黏土 | 河边挖掘 | 制作陶器 |
+| Item | Source | Use |
+|------|--------|-----|
+| Wood | Chopping trees | Crafting material |
+| Stone | Mining rocks | Crafting material |
+| Clay | Riverbank digging | Pottery crafting |
 
-*更多物品数据持续更新中...*
+*More item data coming soon...*

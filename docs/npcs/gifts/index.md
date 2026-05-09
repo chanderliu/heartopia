@@ -1,14 +1,14 @@
-# NPC 喜好礼物
+# NPC Gift Preferences
 
-## 礼物偏好一览
+## Gift Guide
 
-| NPC | 最爱 (+30) | 喜欢 (+15) | 讨厌 (-10) |
-|-----|-----------|-----------|------------|
-| 小花 | 玫瑰、郁金香 | 任意花朵 | 杂草 |
-| 老渔夫 | 金鱼、龙鱼 | 任意鱼类 | 垃圾 |
-| 铁匠王 | 金矿、钻石 | 任意矿石 | 木材 |
-| 厨师长 | 松露、鱼子酱 | 任意食材 | 过期食物 |
+| NPC | Loved (+30) | Liked (+15) | Disliked (-10) |
+|-----|-------------|-------------|----------------|
+| Blanc | Roses, Tulips | Any flowers | Weeds |
+| Vanya | Goldfish, Dragon Fish | Any fish | Trash |
+| Bob | Gold Ore, Diamonds | Any ore | Wood |
+| Massimo | Truffles, Caviar | Any ingredient | Spoiled food |
 
-::: tip 送礼建议
-每周可以给每位NPC送2次礼物。生日当天送礼好感度翻倍！
+::: tip Gift Tips
+You can gift each NPC twice per week. Gifts given on an NPC's birthday earn double friendship!
 :::

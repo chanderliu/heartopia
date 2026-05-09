@@ -1,12 +1,17 @@
 <template>
   <div class="home-hero">
-    <h1>Your Complete Heartopia Wiki, Database & Guides</h1>
-    <p class="hero-tagline">Enjoy every kind of life</p>
-    <p class="hero-desc">The most comprehensive fan resource for Heartopia — active codes, interactive map, fish database, recipe finder, hobby guides, NPC gift tracker, and more. Updated daily.</p>
+    <h1>{{ t('home.heroHeading') }}</h1>
+    <p class="hero-tagline">{{ t('home.heroTagline') }}</p>
+    <p class="hero-desc">{{ t('home.heroDesc') }}</p>
     <div class="cta-buttons">
-      <a href="/heartopia/codes/" class="cta-btn primary">Get Free Codes</a>
-      <a href="/heartopia/wiki/" class="cta-btn secondary">Browse Database</a>
-      <a href="/heartopia/guides/beginner/" class="cta-btn outline">Beginner Guide</a>
+      <a href="/heartopia/codes/" class="cta-btn primary">{{ t('home.getCodes') }}</a>
+      <a href="/heartopia/wiki/" class="cta-btn secondary">{{ t('home.browseDB') }}</a>
+      <a href="/heartopia/guides/beginner/" class="cta-btn outline">{{ t('home.beginnerGuide') }}</a>
     </div>
   </div>
 </template>
+
+<script setup>
+import { useI18n } from '../i18n'
+const { t } = useI18n()
+</script>

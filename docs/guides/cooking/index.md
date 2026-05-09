@@ -1,20 +1,27 @@
-# 烹饪指南
+# Cooking Guide
 
-## 食谱解锁
+Recipe unlocks, ingredient combinations, and energy optimization.
 
-通过完成任务、与NPC对话、探索地图可以获得新食谱。
+## How to Unlock Recipes
 
-## 基础食谱
+Complete quests, talk to NPCs, and explore the map to discover new recipes.
 
-| 菜品 | 所需食材 | 效果 |
-|------|----------|------|
-| 蔬菜沙拉 | 卷心菜×2 | 体力+30 |
-| 烤鱼 | 任意鱼类×1 | 体力+50 |
-| 水果拼盘 | 草莓×3 | 体力+20, 加速10分钟 |
-| 南瓜汤 | 南瓜×1, 牛奶×1 | 体力+80 |
+## Basic Recipes
 
-## 烹饪技巧
+| Dish | Ingredients | Effect |
+|------|-------------|--------|
+| Garden Salad | Cabbage ×2 | Energy +30 |
+| Grilled Fish | Any Fish ×1 | Energy +50 |
+| Fruit Platter | Strawberry ×3 | Energy +20, Speed +10 min |
+| Pumpkin Soup | Pumpkin ×1, Milk ×1 | Energy +80 |
 
-- 使用高品质食材烹饪出的菜品效果更好
-- 部分菜品可以赠送给NPC提升好感度
-- 烹饪等级越高，解锁的食谱越多
+## Cooking Tips
+
+- Higher quality ingredients produce better dishes
+- Some dishes can be gifted to NPCs for friendship
+- Higher cooking level unlocks more recipes
+- Use fish and crops together for the most valuable dishes
+
+::: tip Energy Management
+Cooked dishes restore more energy than raw ingredients. Always cook before eating!
+:::

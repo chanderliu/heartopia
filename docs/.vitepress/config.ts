@@ -3,9 +3,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/heartopia/',
   ignoreDeadLinks: true,
-  lang: 'zh-CN',
-  title: '心动小镇 Wiki',
-  description: '心动小镇游戏攻略百科 — 兑换码、地图、家装设计、NPC攻略',
+  lang: 'en-US',
+  title: 'Heartopia Wiki',
+  description: 'Heartopia Wiki — Complete Database, Codes, Guides & Interactive Tools',
 
   head: [
     ['link', { rel: 'icon', href: '/heartopia/images/favicon.ico' }],
@@ -18,43 +18,43 @@ export default defineConfig({
     logo: '/images/logo.svg',
 
     nav: [
-      { text: '首页', link: '/' },
-      { text: '攻略', link: '/guides/' },
-      { text: '地图', link: '/map/' },
-      { text: '百科', link: '/wiki/' },
-      { text: '家装', link: '/house-designs/' },
-      { text: 'NPC', link: '/npcs/' },
-      { text: '工具', link: '/tools/' },
-      { text: '活动', link: '/events/' },
-      { text: '下载', link: '/download/' },
-      { text: '联系我们', link: '/contact/' },
+      { text: 'Home', link: '/' },
+      { text: 'Guides', link: '/guides/' },
+      { text: 'Map', link: '/map/' },
+      { text: 'Wiki', link: '/wiki/' },
+      { text: 'House Designs', link: '/house-designs/' },
+      { text: 'NPCs', link: '/npcs/' },
+      { text: 'Tools', link: '/tools/' },
+      { text: 'Events', link: '/events/' },
+      { text: 'Download', link: '/download/' },
+      { text: 'Contact', link: '/contact/' },
     ],
 
     sidebar: {
       '/guides/': [
-        { text: '新手指南', link: '/guides/beginner/' },
-        { text: '种植', link: '/guides/farming/' },
-        { text: '钓鱼', link: '/guides/fishing/' },
-        { text: '烹饪', link: '/guides/cooking/' },
-        { text: '手工艺', link: '/guides/crafting/' },
-        { text: '社交', link: '/guides/social/' },
-        { text: '赚钱攻略', link: '/guides/money/' },
+        { text: 'Beginner Guide', link: '/guides/beginner/' },
+        { text: 'Farming', link: '/guides/farming/' },
+        { text: 'Fishing', link: '/guides/fishing/' },
+        { text: 'Cooking', link: '/guides/cooking/' },
+        { text: 'Crafting', link: '/guides/crafting/' },
+        { text: 'Social', link: '/guides/social/' },
+        { text: 'Money Making', link: '/guides/money/' },
       ],
       '/wiki/': [
-        { text: '物品图鉴', link: '/wiki/items/' },
-        { text: '农作物', link: '/wiki/crops/' },
-        { text: '鱼类', link: '/wiki/fish/' },
-        { text: '食谱', link: '/wiki/recipes/' },
-        { text: '建筑', link: '/wiki/buildings/' },
+        { text: 'Items Database', link: '/wiki/items/' },
+        { text: 'Crops', link: '/wiki/crops/' },
+        { text: 'Fish', link: '/wiki/fish/' },
+        { text: 'Recipes', link: '/wiki/recipes/' },
+        { text: 'Buildings', link: '/wiki/buildings/' },
       ],
       '/npcs/': [
-        { text: 'NPC 总览', link: '/npcs/' },
-        { text: '喜好礼物', link: '/npcs/gifts/' },
-        { text: '日程表', link: '/npcs/schedules/' },
+        { text: 'NPC Overview', link: '/npcs/' },
+        { text: 'Gift Preferences', link: '/npcs/gifts/' },
+        { text: 'Daily Schedules', link: '/npcs/schedules/' },
       ],
       '/tools/': [
-        { text: '利润计算器', link: '/tools/calculator/' },
-        { text: '作物时间表', link: '/tools/crop-planner/' },
+        { text: 'Profit Calculator', link: '/tools/calculator/' },
+        { text: 'Crop Planner', link: '/tools/crop-planner/' },
       ],
     },
 
@@ -68,20 +68,20 @@ export default defineConfig({
 
     editLink: {
       pattern: 'https://github.com/chanderliu/heartopia/edit/master/docs/:path',
-      text: '在 GitHub 上编辑此页',
+      text: 'Edit this page on GitHub',
     },
 
     lastUpdated: {
-      text: '最后更新',
+      text: 'Last updated',
     },
 
     docFooter: {
-      prev: '上一篇',
-      next: '下一篇',
+      prev: 'Previous',
+      next: 'Next',
     },
 
     outline: {
-      label: '目录',
+      label: 'On this page',
     },
   },
 })

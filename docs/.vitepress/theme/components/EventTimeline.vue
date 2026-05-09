@@ -6,7 +6,7 @@
         :key="m"
         :class="['download-tab', { active: selectedMonth === m }]"
         @click="selectedMonth = m"
-      >{{ m }}</button>
+      >{{ m === 'All' ? t('events.all') : m }}</button>
     </div>
 
     <div class="event-timeline">
@@ -17,7 +17,7 @@
         <div class="timeline-desc">{{ event.desc }}</div>
       </div>
       <div v-if="filteredEvents.length === 0" style="text-align:center; padding:2rem; color:var(--vp-c-text-3);">
-        该月份暂无活动
+        {{ t('map.noEvents') }}
       </div>
     </div>
   </div>
@@ -25,17 +25,19 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
+import { useI18n } from '../i18n'
+const { t } = useI18n()
 
 const events = ref([])
-const selectedMonth = ref('全部')
+const selectedMonth = ref('All')
 
 const months = computed(() => {
   const set = new Set(events.value.map(e => e.date.substring(0, 7)))
-  return ['全部', ...Array.from(set).sort()]
+  return ['All', ...Array.from(set).sort()]
 })
 
 const filteredEvents = computed(() => {
-  if (selectedMonth.value === '全部') return events.value
+  if (selectedMonth.value === 'All') return events.value
   return events.value.filter(e => e.date.startsWith(selectedMonth.value))
 })
 

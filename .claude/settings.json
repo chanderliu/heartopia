@@ -14,7 +14,10 @@
       "PowerShell(git push origin master)",
       "PowerShell(Move-Item \"docs\\\\.vitepress\\\\public\\\\data\" \"docs\\\\public\\\\\" -Force)",
       "PowerShell(Move-Item \"docs\\\\.vitepress\\\\public\\\\images\" \"docs\\\\public\\\\\" -Force)",
-      "PowerShell(git commit -m \"Fix: move public assets to docs/public/ and update fetch paths\")"
+      "PowerShell(git commit -m \"Fix: move public assets to docs/public/ and update fetch paths\")",
+      "PowerShell(if \\($?\\) { \"done\" })",
+      "WebFetch(domain:localhost)",
+      "PowerShell(Get-Process -Name \"node\" -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowTitle -eq \"\" } | Stop-Process -Force -ErrorAction SilentlyContinue)"
     ]
   }
 }

@@ -1,17 +1,30 @@
-# 联系我们
+# Contact Us
 
-> 有问题或建议？请填写下方表单，我们会尽快回复！
+Have questions or suggestions? Fill out the form and we'll get back to you!
 
 <ContactForm />
 
 ---
 
-## 其他联系方式
+## Other Contact Methods
 
-- 📧 邮箱：heartopia-support@example.com
-- 💬 Discord：[加入我们的 Discord](https://discord.gg/heartopia)
-- 📱 微博：[@心动小镇官方](https://weibo.com)
+- 📧 Email: heartopia-support@example.com
+- 💬 Discord: [Join our Discord](https://discord.gg/heartopia)
+- 🐦 Twitter: [@Heartopia](https://twitter.com/heartopia)
 
-::: tip 常见问题
-提交反馈前，建议先查看 [地图页面的常见问题](../map/) 和 [攻略指南](../guides/)，也许你的问题已经有答案了！
+---
+
+## What We'd Love to Hear
+
+- Incorrect wiki data or outdated information
+- Missing NPC details or gift preferences
+- Event schedule changes
+- New gift codes we haven't listed
+- Guide requests for specific topics
+- Translation corrections
+- Bug workarounds you've discovered
+- General feedback and suggestions
+
+::: tip Before Submitting
+Check the [FAQ](/heartopia/map/) and [Guides](/heartopia/guides/) — your question may already have an answer!
 :::

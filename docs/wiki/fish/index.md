@@ -1,19 +1,19 @@
-# 鱼类图鉴
+# Fish Database
 
-## 河鱼
+## River Fish
 
-| 鱼类 | 出现季节 | 出现天气 | 售价 |
-|------|----------|----------|------|
-| 鲫鱼 | 全年 | 任意 | 60G |
-| 鲤鱼 | 春夏 | 任意 | 80G |
-| 金鱼 | 春 | 晴天 | 200G |
+| Fish | Season | Weather | Sell Price |
+|------|--------|---------|------------|
+| Crucian Carp | All Year | Any | 60G |
+| Carp | Spring-Summer | Any | 80G |
+| Goldfish | Spring | Sunny | 200G |
 
-## 海鱼
+## Ocean Fish
 
-| 鱼类 | 出现季节 | 出现天气 | 售价 |
-|------|----------|----------|------|
-| 沙丁鱼 | 全年 | 任意 | 50G |
-| 鲷鱼 | 春夏秋 | 晴天 | 120G |
-| 金枪鱼 | 夏 | 任意 | 400G |
+| Fish | Season | Weather | Sell Price |
+|------|--------|---------|------------|
+| Sardine | All Year | Any | 50G |
+| Sea Bream | Spring-Fall | Sunny | 120G |
+| Tuna | Summer | Any | 400G |
 
-*数据持续更新中...*
+*More fish data coming soon...*

@@ -1,23 +1,26 @@
-# 种植指南
+# Farming Guide
 
-## 季节作物表
+Crop seasons, profit calculations, and optimal farm layouts.
 
-| 季节 | 作物 | 生长时间 | 售价 |
-|------|------|----------|------|
-| 春 | 草莓 | 2天 | 120G |
-| 春 | 卷心菜 | 3天 | 180G |
-| 夏 | 西瓜 | 4天 | 300G |
-| 夏 | 番茄 | 2天 | 100G |
-| 秋 | 南瓜 | 5天 | 500G |
-| 秋 | 玉米 | 3天 | 200G |
+## Seasonal Crops
 
-## 种植技巧
+| Season | Crop | Grow Time | Sell Price |
+|--------|------|-----------|------------|
+| Spring | Strawberry | 2 days | 120G |
+| Spring | Cabbage | 3 days | 180G |
+| Summer | Watermelon | 4 days | 300G |
+| Summer | Tomato | 2 days | 100G |
+| Fall | Pumpkin | 5 days | 500G |
+| Fall | Corn | 3 days | 200G |
 
-- 每天浇水可缩短生长时间
-- 使用肥料提高作物品质
-- 温室可以无视季节限制
-- 作物成熟后及时收获，否则会枯萎
+## Farming Tips
 
-::: warning 注意
-每个季节最后一天记得收获所有作物，换季时未收获的作物会枯萎！
+- Water crops daily to reduce growth time
+- Use fertilizer to improve crop quality
+- Greenhouses ignore season restrictions
+- Harvest crops promptly to prevent withering
+- Plant high-profit crops before logging off
+
+::: warning Important
+Harvest all crops before the last day of each season. Crops will wither when the season changes!
 :::

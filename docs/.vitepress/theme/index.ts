@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
+import Layout from './Layout.vue'
 
 import HomeHero from './components/HomeHero.vue'
 import QuickStartCards from './components/QuickStartCards.vue'
@@ -25,6 +26,7 @@ import './styles/custom.css'
 
 export default {
   extends: DefaultTheme,
+  Layout,
   enhanceApp({ app }) {
     app.component('HomeHero', HomeHero)
     app.component('QuickStartCards', QuickStartCards)

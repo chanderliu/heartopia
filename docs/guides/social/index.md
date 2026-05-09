@@ -1,23 +1,27 @@
-# 社交系统
+# Social & Multiplayer Guide
 
-## 好友系统
+Friends, parties, trading, and cooperative gameplay.
 
-- 通过玩家ID添加好友
-- 好友之间可以互访小镇
-- 每天可以给好友赠送礼物
+## Friend System
 
-## 小镇社交
+- Add friends using their Player ID
+- Visit friends' homes and towns
+- Send daily gifts to friends
+- Party up for bonus XP and gold
 
-加入小镇后可以：
-- 参与小镇活动获得集体奖励
-- 与小镇成员交易物品
-- 共同完成小镇目标
+## Town Social
 
-## NPC 好感度
+Joining a town unlocks:
+- Town events with group rewards
+- Item trading with town members
+- Cooperative town goals
+- Shared resource bonuses
 
-与NPC互动可以提升好感度：
-- 每天对话 +5
-- 赠送喜欢的礼物 +15
-- 完成任务 +30
+## NPC Friendship
 
-好感度达到一定等级会解锁特殊剧情和奖励。
+Interact with NPCs to build friendship:
+- Daily dialogue: +5
+- Gift a loved item: +15
+- Complete quests: +30
+
+Reaching friendship milestones unlocks special story events and rewards.

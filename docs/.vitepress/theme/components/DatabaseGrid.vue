@@ -3,7 +3,7 @@
     <a v-for="item in items" :key="item.title" :href="item.link" class="database-card">
       <div class="db-icon">{{ item.icon }}</div>
       <div class="db-title">{{ item.title }}</div>
-      <div class="db-count">{{ item.count }} items</div>
+      <div class="db-count">{{ item.count }} entries</div>
       <div class="db-desc">{{ item.desc }}</div>
     </a>
   </div>

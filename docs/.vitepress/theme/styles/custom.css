@@ -1007,3 +1007,39 @@ body {
     bottom: 1rem;
   }
 }
+
+/* —— Language switcher in navbar —— */
+.nav-lang-wrap {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .nav-lang-wrap {
+    margin-left: auto;
+    margin-right: 0.5rem;
+  }
+}
+
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 2rem;
+  background: var(--vp-c-bg-elv);
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: inherit;
+  transition: background 0.2s, border-color 0.2s;
+  white-space: nowrap;
+}
+
+.lang-switcher:hover {
+  background: var(--vp-c-bg-alt);
+  border-color: var(--vp-c-brand-1);
+}

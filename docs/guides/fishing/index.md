@@ -1,21 +1,33 @@
-# 钓鱼指南
+# Fishing Guide
 
-## 钓鱼地点
+All 98 fish species, fishing spots, bait, and rod upgrades.
 
-| 地点 | 常见鱼类 | 稀有鱼类 |
-|------|----------|----------|
-| 小镇河流 | 鲫鱼、鲤鱼 | 金鱼 |
-| 海边码头 | 沙丁鱼、鲷鱼 | 金枪鱼 |
-| 山间湖泊 | 鲈鱼、鳟鱼 | 虹鳟 |
-| 神秘沼泽 | 鲶鱼、黑鱼 | 龙鱼 |
+## Fishing Spots
 
-## 钓鱼技巧
+| Location | Common Fish | Rare Fish |
+|----------|-------------|-----------|
+| Town River | Carp, Crucian Carp | Goldfish |
+| Ocean Pier | Sardine, Sea Bream | Tuna |
+| Mountain Lake | Bass, Trout | Rainbow Trout |
+| Mystic Swamp | Catfish, Snakehead | Dragon Fish |
 
-- 不同天气影响鱼的出现概率
-- 使用高级鱼竿可以钓到更稀有的鱼
-- 鱼饵可以吸引特定种类的鱼
-- 钓鱼等级提升后解锁新钓点
+## Fishing Tips
 
-::: tip 小贴士
-下雨天是钓鱼的好时机，稀有鱼出现概率翻倍！
+- Weather affects fish appearance rates
+- Better rods unlock rarer fish
+- Bait attracts specific fish types
+- Higher fishing level unlocks new spots
+- Rainy days double rare fish rates
+
+## Rod Upgrades
+
+Upgrade your fishing rod at Bill's shop in the Fishing Village:
+- **Basic Rod** — Tutorial reward
+- **Copper Rod** — D.G. Level 3
+- **Iron Rod** — D.G. Level 6
+- **Silver Rod** — D.G. Level 9
+- **Gold Rod** — D.G. Level 12
+
+::: tip Pro Tip
+Rainy days are the best time to fish — rare fish appearance rates double!
 :::

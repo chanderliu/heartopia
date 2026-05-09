@@ -1,18 +1,18 @@
-# 建筑
+# Buildings
 
-## 功能性建筑
+## Functional Buildings
 
-| 建筑 | 解锁条件 | 功能 |
-|------|----------|------|
-| 工坊 | 完成新手教程 | 制作物品 |
-| 厨房 | 房屋升级Lv2 | 烹饪食物 |
-| 温室 | 种植等级5 | 跨季节种植 |
-| 鱼塘 | 钓鱼等级3 | 养鱼收鱼 |
+| Building | Unlock | Function |
+|----------|--------|----------|
+| Workshop | Complete tutorial | Item crafting |
+| Kitchen | House Lv2 | Food cooking |
+| Greenhouse | Farming Lv5 | Cross-season planting |
+| Fish Pond | Fishing Lv3 | Fish farming |
 
-## 装饰性建筑
+## Decorative Buildings
 
-- 花坛 — 美化小镇
-- 喷泉 — 提升小镇评分
-- 凉亭 — 社交互动场所
+- Flower Bed — Beautify your town
+- Fountain — Boost town rating
+- Gazebo — Social interaction spot
 
-*数据持续更新中...*
+*More building data coming soon...*

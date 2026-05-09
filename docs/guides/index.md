@@ -1,19 +1,28 @@
-# 攻略指南
+# Guides & Walkthroughs
 
-欢迎来到心动小镇攻略中心！选择你需要的指南开始冒险吧。
+From beginner basics to advanced strategies — master every aspect of Heartopia.
 
-## 快速导航
+## Quick Navigation
 
-- [新手指南](./beginner/) — 从零开始的心动小镇之旅
-- [种植指南](./farming/) — 作物种植全攻略
-- [钓鱼指南](./fishing/) — 鱼类分布与钓法
-- [烹饪指南](./cooking/) — 食谱解锁与食材搭配
-- [手工艺指南](./crafting/) — DIY 制作大全
-- [社交系统](./social/) — 好友互动与小镇社交
-- [赚钱攻略](./money/) — 快速积累金币的方法
+- [Beginner Guide](./beginner/) — Your first day in Heartopia, step by step
+- [Farming Guide](./farming/) — Crop seasons, profits, and farm layouts
+- [Fishing Guide](./fishing/) — All 98 fish, locations, bait, and rod upgrades
+- [Cooking Guide](./cooking/) — Recipe unlocks and ingredient combinations
+- [Crafting Guide](./crafting/) — DIY recipes, materials, and crafting stations
+- [Social & Multiplayer](./social/) — Friends, parties, trading, and home visits
+- [Money Making Guide](./money/) — Best daily gold strategies and profit routes
 
 ---
 
-::: tip 提示
-如果你是刚入坑的萌新，建议先从 **新手指南** 开始阅读！
+## Popular Guides
+
+- **Home Plots Guide** — How to unlock, upgrade, and decorate your home plot
+- **D.G. Guild Progression** — Level unlocks, rewards, and milestone bonuses
+- **Multiplayer Guide** — Add friends, visit homes, trade items, and party up
+- **House Design Ideas** — Theme inspiration, room layouts, and building techniques
+- **Pet Care Guide** — Cat and dog adoption, feeding, and leveling
+- **Sheet Music Guide** — Piano notes, Annie's Music Store, and song notation
+
+::: tip New Player?
+If you just started Heartopia, begin with the **Beginner Guide** for a smooth first day.
 :::

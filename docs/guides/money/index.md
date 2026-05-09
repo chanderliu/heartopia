@@ -1,21 +1,27 @@
-# 赚钱攻略
+# Money Making Guide
 
-## 稳定收入来源
+Best daily gold strategies and profit routes.
 
-| 方式 | 日收益 | 难度 |
-|------|--------|------|
-| 种植作物 | 500-2000G | 简单 |
-| 钓鱼卖鱼 | 300-1500G | 中等 |
-| 完成任务 | 200-1000G | 简单 |
-| 手工艺制作 | 800-3000G | 中等 |
+## Stable Income Sources
 
-## 进阶赚钱技巧
+| Method | Daily Profit | Difficulty |
+|--------|-------------|------------|
+| Crop Farming | 500-2000G | Easy |
+| Fishing | 300-1500G | Medium |
+| Quests | 200-1000G | Easy |
+| Crafting | 800-3000G | Medium |
 
-1. **季节限定作物** — 种植当季高价值作物，如秋季南瓜
-2. **稀有鱼类** — 雨天钓稀有鱼，售价翻倍
-3. **批量制作** — 原材料加工后售价更高
-4. **活动参与** — 节日活动奖励丰厚
+## Advanced Money Tips
 
-::: tip 最佳赚钱路线
-早晨收菜 → 制作加工品 → 钓鱼到中午 → 卖鱼 → 下午做任务 → 晚上参加活动
+1. **Season-limited crops** — Plant high-value seasonal crops like Fall Pumpkins
+2. **Rare fish** — Fish on rainy days for doubled rare fish prices
+3. **Batch crafting** — Processed materials sell for more than raw resources
+4. **Event participation** — Festival events offer the best rewards
+
+## Best Daily Route
+
+Morning harvest → Process goods → Fish until noon → Sell to Albert Jr. → Afternoon quests → Evening events
+
+::: tip Albert Jr.
+Albert Jr. is the roaming merchant — the only NPC who buys items from you. Track him on the map to sell your goods.
 :::

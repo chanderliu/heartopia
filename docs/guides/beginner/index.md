@@ -1,30 +1,32 @@
-# 新手指南
+# Beginner Guide
 
-> 欢迎来到心动小镇！这篇指南将帮助你快速上手。
+Your first day in Heartopia — a step-by-step walkthrough.
 
-## 第一天该做什么？
+## First Day Checklist
 
-1. **创建角色** — 选择你喜欢的形象和名字
-2. **完成新手任务** — 跟随指引熟悉基本操作
-3. **领取每日奖励** — 别忘了每天的免费奖励
-4. **开始种植** — 种下你的第一批作物
+1. **Create your character** — Choose your appearance and name
+2. **Complete the tutorial** — Follow on-screen prompts to learn basic controls
+3. **Meet the D.G. Guild** — Visit the guild to unlock progression tracking
+4. **Learn to fish** — Talk to Vanya at the river pier for your first fishing rod
+5. **Claim free codes** — Check the [codes page](../../codes/) for active gift codes
 
-## 基础操作
+## Basic Controls
 
-| 操作 | 说明 |
-|------|------|
-| 移动 | 虚拟摇杆 / WASD |
-| 交互 | 点击 NPC 或物品 |
-| 背包 | 屏幕下方快捷栏 |
-| 地图 | 右上角小地图 |
+| Action | Control |
+|--------|---------|
+| Move | Virtual joystick / WASD |
+| Interact | Tap NPCs or items |
+| Inventory | Bottom quick bar |
+| Map | Top-right mini-map |
 
-## 前期建议
+## Early Game Tips
 
-- 优先完成主线任务，解锁更多功能
-- 每天登录领取签到奖励
-- 加入一个活跃的小镇，获得社交加成
-- 不要急着花金币，攒着买扩容背包
+- Prioritize main quests to unlock features faster
+- Log in daily for sign-in rewards
+- Join an active town for social bonuses
+- Save gold for backpack expansions
+- Focus on fishing early — it's the most profitable beginner activity
 
-::: tip 兑换码福利
-别忘了去 [兑换码页面](../../codes/) 领取免费奖励！
+::: tip Free Codes
+Don't forget to visit the [codes page](../../codes/) for free rewards!
 :::

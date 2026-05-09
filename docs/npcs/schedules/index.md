@@ -1,14 +1,14 @@
-# NPC 日程表
+# NPC Daily Schedules
 
-## 小花（花店老板）
+## Blanc (Gardening Mentor)
 
-| 时间 | 地点 | 活动 |
-|------|------|------|
-| 6:00-8:00 | 花店 | 开店准备 |
-| 8:00-12:00 | 花店 | 营业中 |
-| 12:00-13:00 | 餐厅 | 午餐 |
-| 13:00-18:00 | 花店 | 营业中 |
-| 18:00-20:00 | 小镇广场 | 散步 |
-| 20:00-6:00 | 家中 | 休息 |
+| Time | Location | Activity |
+|------|----------|----------|
+| 6:00-8:00 | Gardening Shop | Opening preparations |
+| 8:00-12:00 | Gardening Shop | Shop open |
+| 12:00-13:00 | Restaurant | Lunch break |
+| 13:00-18:00 | Gardening Shop | Shop open |
+| 18:00-20:00 | Town Square | Evening walk |
+| 20:00-6:00 | Home | Resting |
 
-*更多NPC日程持续更新中...*
+*More NPC schedules coming soon...*

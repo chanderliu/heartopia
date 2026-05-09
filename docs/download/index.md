@@ -1,22 +1,58 @@
-# 下载
+# Download Heartopia — iOS, Android, PC & Steam
 
-> 选择你的平台，开始心动小镇之旅！
+Download Heartopia on your preferred platform. Available on iOS, Android, PC via TapTap, and Steam.
 
 <DownloadGuide />
 
 ---
 
-## 配置要求
+## System Requirements
 
-| 平台 | 最低配置 | 推荐配置 |
-|------|----------|----------|
-| iOS | iPhone 8+, iOS 14+ | iPhone 12+, iOS 16+ |
-| Android | 骁龙665, 4GB RAM | 骁龙865+, 6GB RAM |
-| PC模拟器 | 双核CPU, 4GB RAM | 四核CPU, 8GB RAM |
+### PC Requirements (Steam)
 
-## 如何安装视频教程
+| Component | Minimum | Recommended |
+|-----------|---------|-------------|
+| OS | Windows 10 64-bit | Windows 10/11 64-bit |
+| CPU | i5-2500 / FX-4350 | i5-6500 / Ryzen 3 1200 |
+| Memory | 8 GB RAM | 16 GB RAM |
+| GPU | GTX 660 Ti / R9 270 | GTX 1060 / RX 480 |
+| DirectX | Version 11 | Version 12 |
+| Storage | 10 GB available | 10 GB SSD |
+| Network | Broadband Internet | Broadband Internet |
 
-<div class="video-placeholder" style="text-align:center; padding:3rem; background:var(--c-bg-dark); border-radius:1rem; margin:1rem 0;">
-  <p style="color:var(--c-text-lighter);">📺 视频教程即将上线</p>
-  <p style="color:var(--c-text-lighter); font-size:0.85rem;">请关注官方频道获取最新安装指南</p>
-</div>
+### Mobile Requirements
+
+| Platform | Minimum |
+|----------|---------|
+| iOS | iOS 12.0 or later, ~3.9 GB |
+| Android | Android 7.0+, ~4.75 GB |
+
+---
+
+## Platform Status
+
+| Platform | Status |
+|----------|--------|
+| iOS | Available |
+| Android | Available |
+| PC (TapTap) | Available |
+| Steam | Released January 16, 2026 |
+| Nintendo Switch | No version announced |
+| macOS | No official client |
+
+---
+
+## FAQ
+
+**Is Heartopia free to play?**
+Yes, Heartopia is free-to-play with optional in-app purchases.
+
+**Can I transfer my progress between platforms?**
+Yes, link your account to keep progress across devices.
+
+**What is TapTap?**
+TapTap is an official XD Games platform for downloading and updating games on PC.
+
+::: danger Warning
+Only download from official sources. Avoid third-party EXE/APK files — they may contain malware.
+:::

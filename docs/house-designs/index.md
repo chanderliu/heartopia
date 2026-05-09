@@ -1,58 +1,72 @@
 ---
-title: 家装设计
+title: House Design Ideas & Layouts
 ---
 
 <script setup>
 const houseUpgradeSteps = [
-  { label: '房屋 Lv1', status: 'done' },
-  { label: '收集材料', status: 'done' },
-  { label: '房屋 Lv2', status: 'done' },
-  { label: '完成装修任务', status: 'current' },
-  { label: '房屋 Lv3', status: 'pending' },
-  { label: '高级装修', status: 'pending' },
+  { label: 'House Lv1', status: 'done' },
+  { label: 'Gather Materials', status: 'done' },
+  { label: 'House Lv2', status: 'done' },
+  { label: 'Complete Decoration Quest', status: 'current' },
+  { label: 'House Lv3', status: 'pending' },
+  { label: 'Advanced Decoration', status: 'pending' },
 ]
 
 const petAdoptionSteps = [
-  { label: '房屋 Lv3', status: 'done' },
-  { label: '动物之友任务', status: 'done' },
-  { label: '建造宠物屋', status: 'current' },
-  { label: '准备宠物粮', status: 'pending' },
-  { label: '领养宠物', status: 'pending' },
+  { label: 'Reach D.G. Lv12', status: 'done' },
+  { label: 'Complete Cat Onboarding', status: 'done' },
+  { label: 'Build Pet House', status: 'current' },
+  { label: 'Prepare Pet Food', status: 'pending' },
+  { label: 'Adopt Pets', status: 'pending' },
 ]
 </script>
 
-# 家装设计
+# Heartopia House Design Ideas & Layouts
 
-## 装修前置条件
+House design inspiration, room-by-room ideas, layout archetypes, and furniture guides.
 
-<StepBar title="房屋装修流程" :steps="houseUpgradeSteps" />
+## House Upgrade Path
+
+<StepBar title="House Upgrade Path" :steps="houseUpgradeSteps" />
 
 <div class="prerequisite-highlight">
-  <strong>⚠ 重要提示：</strong>升级房屋前请确保背包有足够空间，升级材料不退还。
+  <strong>Important:</strong> Make sure your backpack has enough space before upgrading. Materials are not refundable.
 </div>
 
 ---
 
-## 装修方案展示
+## Popular Design Themes
 
 <ContentCardGrid>
-  <ContentCard title="田园风格" image="田园风客厅" description="温馨田园风，适合新手小屋" :requirements="['房屋Lv2', '木材×50', '金币×5000']" />
-  <ContentCard title="现代简约" image="简约客厅" description="简洁大方的现代装修" :requirements="['房屋Lv3', '石材×80', '金币×12000']" />
-  <ContentCard title="童话城堡" image="城堡外观" description="梦幻城堡风格装修" :requirements="['房屋Lv4', '水晶×30', '金币×25000']" />
+  <ContentCard title="Cozy Cottage" image="Cozy Cottage" description="Wooden furniture, warm rugs, candles, and soft pillows — perfect for beginners." :requirements="['House Lv2', 'Wood ×50', 'Gold ×5000']" />
+  <ContentCard title="Modern Minimalist" image="Modern Minimalist" description="Simple furniture, neutral colors, open space, and sleek decor." :requirements="['House Lv3', 'Stone ×80', 'Gold ×12000']" />
+  <ContentCard title="Nature Haven" image="Nature Haven" description="Indoor plants, Roaming Oak items, natural wood, and green accents." :requirements="['House Lv4', 'Plants ×20', 'Gold ×15000']" />
 </ContentCardGrid>
 
 ---
 
-## 宠物领养
+## More Design Themes
 
-<StepBar title="宠物领养流程" :steps="petAdoptionSteps" />
+<ContentCardGrid>
+  <ContentCard title="Pastel Dream" image="Pastel Dream" description="Pink furniture, lavender accents, cute decor, and fairy lights." :requirements="['House Lv3', 'Dye ×15', 'Gold ×10000']" />
+  <ContentCard title="Rustic Farmhouse" image="Rustic Farmhouse" description="Barn wood, vintage items, mason jars, and checkered patterns." :requirements="['House Lv3', 'Wood ×100', 'Gold ×8000']" />
+  <ContentCard title="Coastal Beach" image="Coastal Beach" description="Blue & white palette, shell decor, light fabrics, and ocean vibes." :requirements="['House Lv4', 'Shells ×30', 'Gold ×18000']" />
+</ContentCardGrid>
+
+---
+
+## Pets & Adoption
+
+Adopt cats, dogs, and discover the Oak-Oak companion.
+
+<StepBar title="Pet Adoption Path" :steps="petAdoptionSteps" />
 
 <div class="prerequisite-highlight">
-  <strong>⚠ 领养条件：</strong>需要房屋等级达到 Lv3 以上，且完成「动物之友」任务。
+  <strong>Adoption requirements:</strong> Requires D.G. Level 12 and completion of the Cat Onboarding quest. Dogs unlock after cats.
 </div>
 
 <ContentCardGrid>
-  <ContentCard title="小狗" image="小狗" description="忠诚的伙伴，可以帮忙寻找物品" :requirements="['房屋Lv3', '宠物屋×1', '狗粮×10']" />
-  <ContentCard title="小猫" image="小猫" description="可爱的小伙伴，增加幸运值" :requirements="['房屋Lv3', '宠物屋×1', '猫粮×10']" />
-  <ContentCard title="小兔子" image="小兔子" description="温顺的小家伙，提升作物品质" :requirements="['房屋Lv4', '豪华宠物屋×1', '胡萝卜×20']" />
+  <ContentCard title="Cats" image="Cat" description="Adopt and raise cats. Dress them up, play mini-games, and increase happiness." :requirements="['D.G. Lv12', 'Pet House', 'Cat Food ×10']" />
+  <ContentCard title="Dogs" image="Dog" description="Adopt and train dogs. Take them on walks, teach tricks, and earn rewards." :requirements="['D.G. Lv12', 'Pet House', 'Dog Food ×10']" />
+  <ContentCard title="Oak-Oak" image="Oak-Oak" description="Mysterious forest companion. Unlocks via the Astralis quest line." :requirements="['D.G. Lv15', 'Astralis Quest', 'Roaming Oak Timber']" />
 </ContentCardGrid>

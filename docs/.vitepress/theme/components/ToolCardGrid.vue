@@ -4,12 +4,15 @@
       <div class="tool-icon">{{ tool.icon }}</div>
       <div class="tool-name">{{ tool.name }}</div>
       <div class="tool-desc">{{ tool.desc }}</div>
-      <div class="tool-status available">Available Now</div>
+      <div class="tool-status available">{{ t('tools.available') }}</div>
     </a>
   </div>
 </template>
 
 <script setup>
+import { useI18n } from '../i18n'
+const { t } = useI18n()
+
 const tools = [
   { icon: '💰', name: 'Profit Calculator', desc: 'Calculate profit margins for every crop, fish, and crafted item.', link: '/heartopia/tools/calculator/' },
   { icon: '🐟', name: 'Fish Tracker', desc: 'Track which fish you have caught and see what is missing.', link: '/heartopia/tools/calculator/' },

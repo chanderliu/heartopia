@@ -3,13 +3,16 @@
     <div class="hobby-card" v-for="h in hobbies" :key="h.name">
       <div class="hobby-icon">{{ h.icon }}</div>
       <div class="hobby-name">{{ h.name }}</div>
-      <div class="hobby-unlock">Unlock: {{ h.unlock }}</div>
+      <div class="hobby-unlock">{{ t('common.unlock') }}: {{ h.unlock }}</div>
       <div class="hobby-desc">{{ h.desc }}</div>
     </div>
   </div>
 </template>
 
 <script setup>
+import { useI18n } from '../i18n'
+const { t } = useI18n()
+
 const hobbies = [
   { icon: '🎣', name: 'Fishing', unlock: 'Tutorial', desc: 'Catch 98 fish species across 14 fishing spots. Teaches patience and pays well.' },
   { icon: '🌱', name: 'Gardening', unlock: 'Tutorial', desc: 'Grow crops, flowers, and trees. Foundation for cooking and profitable farming.' },

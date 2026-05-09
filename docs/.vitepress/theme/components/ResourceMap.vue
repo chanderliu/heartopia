@@ -7,13 +7,13 @@
       </label>
       <label style="display:flex; align-items:center; gap:0.3rem; cursor:pointer; font-size:0.9rem; margin-left:auto;">
         <input type="checkbox" v-model="showBookmarked" />
-        ⭐ 仅显示收藏
+        {{ t('map.bookmarks') }}
       </label>
     </div>
 
     <div class="map-container" style="position:relative; background:var(--vp-c-bg-alt); border-radius:1rem; overflow:hidden; aspect-ratio:16/10; min-height:360px;">
       <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:var(--vp-c-text-3); font-size:1.2rem;">
-        🗺️ 游戏地图
+        🗺️ Game Map
       </div>
 
       <div
@@ -31,22 +31,21 @@
         <div style="font-weight:600;">{{ selected.name }}</div>
         <div style="font-size:0.85rem; color:var(--vp-c-text-2); margin:0.25rem 0;">{{ selected.desc }}</div>
         <button class="bookmark-btn" @click.stop="toggleBookmark(selected.id)">
-          {{ isBookmarked(selected.id) ? '⭐ 取消收藏' : '☆ 收藏此点' }}
+          {{ isBookmarked(selected.id) ? t('map.unbookmark') : t('map.bookmark') }}
         </button>
       </div>
     </div>
 
     <div style="display:flex; gap:1.5rem; margin-top:0.75rem; font-size:0.85rem; flex-wrap:wrap;">
-      <span>🪨 资源点</span>
-      <span>👤 NPC</span>
-      <span>🛒 商店</span>
-      <span>🌿 采集点</span>
+      <span v-for="cat in categories" :key="cat.key">{{ cat.icon }} {{ cat.label }}</span>
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
+import { useI18n } from '../i18n'
+const { t } = useI18n()
 
 const markers = ref([])
 const selected = ref(null)
@@ -54,12 +53,12 @@ const activeFilters = ref(['resource', 'npc', 'shop', 'forage'])
 const showBookmarked = ref(false)
 const bookmarkedIds = ref([])
 
-const categories = [
-  { key: 'resource', label: '🪨 资源点' },
-  { key: 'npc', label: '👤 NPC' },
-  { key: 'shop', label: '🛒 商店' },
-  { key: 'forage', label: '🌿 采集点' },
-]
+const categories = computed(() => [
+  { key: 'resource', label: t('map.resource'), icon: '🪨' },
+  { key: 'npc', label: t('map.npc'), icon: '👤' },
+  { key: 'shop', label: t('map.shop'), icon: '🛒' },
+  { key: 'forage', label: t('map.forage'), icon: '🌿' },
+])
 
 function markerIcon(cat) {
   const icons = { resource: '🪨', npc: '👤', shop: '🛒', forage: '🌿' }

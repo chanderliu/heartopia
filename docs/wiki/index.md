@@ -1,17 +1,30 @@
-# 百科
+# Heartopia Wiki & Database
 
-欢迎来到心动小镇百科！这里汇集了游戏中的所有资料。
+Comprehensive game database — items, crops, fish, recipes, and buildings.
 
-## 分类浏览
+## Browse by Category
 
-- [物品图鉴](./items/) — 所有可收集物品
-- [农作物](./crops/) — 作物种植数据
-- [鱼类](./fish/) — 鱼类分布与属性
-- [食谱](./recipes/) — 完整食谱列表
-- [建筑](./buildings/) — 建筑解锁与升级
+- [Items Database](./items/) — All collectible items, materials, and resources
+- [Crops](./crops/) — Crop growing data, seasons, and profitability
+- [Fish](./fish/) — All 98 fish species with locations, seasons, and times
+- [Recipes](./recipes/) — Complete recipe list with ingredients and energy values
+- [Buildings](./buildings/) — Building unlocks, upgrades, and requirements
 
 ---
 
-## 快速搜索
+## Database Quick Stats
 
-使用顶部搜索栏可以快速查找任何游戏内容。
+| Category | Entries | Details |
+|----------|---------|---------|
+| Fish | 98 | Locations, seasons, times, rarities, sell prices |
+| Recipes | 200+ | Ingredients, energy, sell prices, unlock conditions |
+| Materials | 150+ | Spawn locations, crafting uses |
+| Insects | 65 | Catch conditions, weather, time windows |
+| Birds | 45 | Habitats, active hours, photo tips |
+| Crafting | 120+ | DIY recipes, furniture, tools, decorations |
+
+---
+
+## Quick Search
+
+Use the search bar at the top of the page to quickly find any game content.

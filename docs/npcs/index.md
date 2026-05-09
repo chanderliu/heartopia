@@ -1,25 +1,53 @@
-# NPC 总览
+# Heartopia NPCs & Villagers Guide
 
-心动小镇中有许多性格各异的NPC，与他们互动可以获得奖励和剧情。
+Complete guide to all 17 NPCs — gifts, schedules, locations, and friendship rewards.
 
-## NPC 列表
+## NPC Categories
 
-| NPC | 位置 | 职业 | 最爱礼物 |
-|-----|------|------|----------|
-| 小花 | 花店 | 花店老板 | 玫瑰 |
-| 老渔夫 | 码头 | 渔夫 | 稀有鱼 |
-| 铁匠王 | 铁匠铺 | 铁匠 | 矿石 |
-| 厨师长 | 餐厅 | 厨师 | 稀有食材 |
-| 镇长 | 镇政府 | 镇长 | 工艺品 |
+### 🎓 Hobby Mentors
+Blanc (Gardening), Vanya (Fishing), Massimo (Cooking), Naniwa (Bug Catching), Bailey J (Birdwatching), Bill (Advanced Fishing)
 
-## 好感度系统
+### 🏪 Shopkeepers & Services
+Mrs. Joan (Pet Shop), Bob (Architect), Dorothee (Clothing Store), Ka Ching (General Store)
 
-- 🧡 好感度 Lv1-3：日常对话
-- 💛 好感度 Lv4-6：解锁专属任务
-- 💚 好感度 Lv7-9：获得特殊礼物
-- 💙 好感度 Lv10：解锁隐藏剧情
+### 🏘️ Townsfolk
+Patti (Artist), Cassie (Forest Resident), Eric (Daily Delegations), Atara (Mayor), Star Spirit (Guide)
+
+### ✨ Special NPCs
+Albert Jr. (Roaming Merchant), Oak-Oak (Wandering Oak)
 
 ---
 
-- [NPC 喜好礼物](./gifts/)
-- [NPC 日程表](./schedules/)
+## NPC List
+
+<NpcCardGrid />
+
+---
+
+## Friendship System
+
+Build relationships with NPCs to unlock quests, rewards, and hidden stories.
+
+- :orange_heart: Friendship Lv1-3: Daily dialogue
+- :yellow_heart: Friendship Lv4-6: Exclusive quests
+- :green_heart: Friendship Lv7-9: Special gifts
+- :blue_heart: Friendship Lv10: Hidden story events
+
+---
+
+## Gifting Mechanics
+
+| Tier | Reaction | Effect |
+|------|----------|--------|
+| Loved | Heart reaction | +30 Friendship |
+| Liked | Smile reaction | +15 Friendship |
+| Disliked | Sad reaction | +0 Friendship |
+
+::: tip Pro Tip
+Avoid giving trash or weeds — most NPCs dislike junk items. Check individual NPC pages for specific gift preferences.
+:::
+
+---
+
+- [NPC Gift Preferences](/heartopia/npcs/gifts/)
+- [NPC Daily Schedules](/heartopia/npcs/schedules/)

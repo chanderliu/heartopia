@@ -1,20 +1,27 @@
-# 手工艺指南
+# Crafting Guide
 
-## 制作台
+DIY recipes, materials, tools, and furniture crafting.
 
-在小镇的工坊中可以使用制作台，制作各种物品。
+## Crafting Station
 
-## 可制作物品
+Use the workbench at the town workshop to craft various items.
 
-| 类别 | 物品 | 所需材料 |
-|------|------|----------|
-| 工具 | 洒水器 | 铁锭×3, 铜锭×2 |
-| 装饰 | 花盆 | 黏土×5, 石头×2 |
-| 家具 | 木椅 | 木材×10, 钉子×3 |
-| 围栏 | 木栅栏 | 木材×5 |
+## Craftable Items
 
-## 升级建议
+| Category | Item | Materials |
+|----------|------|-----------|
+| Tools | Sprinkler | Iron Ingot ×3, Copper Ingot ×2 |
+| Decor | Flower Pot | Clay ×5, Stone ×2 |
+| Furniture | Wooden Chair | Wood ×10, Nails ×3 |
+| Fencing | Wooden Fence | Wood ×5 |
 
-- 优先升级工具类制作等级
-- 收集材料时可以多带几个背包
-- 部分稀有材料需要完成特定任务才能获取
+## Upgrade Tips
+
+- Prioritize tool crafting upgrades first
+- Bring extra backpacks when gathering materials
+- Some rare materials require specific quests
+- Check Bob's shop daily for new blueprints
+
+::: tip Material Efficiency
+Processing raw materials into crafted goods increases their sell value significantly.
+:::
