@@ -45,7 +45,7 @@ const displayedCodes = computed(() => {
 
 onMounted(async () => {
   try {
-    const res = await fetch('/heartopia/data/codes.json')
+    const res = await fetch('/heartopia/codes.json')
     codes.value = await res.json()
     lastUpdated.value = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
   } catch (e) {

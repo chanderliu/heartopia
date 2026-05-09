@@ -11,7 +11,10 @@
       "PowerShell(git push -u origin master)",
       "WebFetch(domain:heartopia.gg)",
       "PowerShell(git commit -m \"Redesign to match heartopia.gg: new components, real data, full homepage\")",
-      "PowerShell(git push origin master)"
+      "PowerShell(git push origin master)",
+      "PowerShell(Move-Item \"docs\\\\.vitepress\\\\public\\\\data\" \"docs\\\\public\\\\\" -Force)",
+      "PowerShell(Move-Item \"docs\\\\.vitepress\\\\public\\\\images\" \"docs\\\\public\\\\\" -Force)",
+      "PowerShell(git commit -m \"Fix: move public assets to docs/public/ and update fetch paths\")"
     ]
   }
 }

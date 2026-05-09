@@ -28,7 +28,7 @@ function npcEmoji(npc) { return emojiMap[npc.name] || '👤' }
 
 onMounted(async () => {
   try {
-    const res = await fetch('/heartopia/data/npcs.json')
+    const res = await fetch('/heartopia/npcs.json')
     npcs.value = await res.json()
   } catch (e) { console.error('Failed to load NPCs:', e) }
 })

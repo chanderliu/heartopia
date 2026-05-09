@@ -46,7 +46,7 @@ function typeEmoji(t) {
 
 onMounted(async () => {
   try {
-    const res = await fetch('/heartopia/data/events.json')
+    const res = await fetch('/heartopia/events.json')
     events.value = await res.json()
   } catch (e) {
     console.error('Failed to load events:', e)

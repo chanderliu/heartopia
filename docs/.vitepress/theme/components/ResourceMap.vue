@@ -98,7 +98,7 @@ function saveFilters() {
 
 onMounted(async () => {
   try {
-    const res = await fetch('/heartopia/data/map-markers.json')
+    const res = await fetch('/heartopia/map-markers.json')
     markers.value = await res.json()
   } catch (e) {
     console.error('Failed to load map markers:', e)

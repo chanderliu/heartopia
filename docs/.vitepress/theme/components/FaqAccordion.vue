@@ -24,7 +24,7 @@ function toggle(i) {
 
 onMounted(async () => {
   try {
-    const res = await fetch('/heartopia/data/faq.json')
+    const res = await fetch('/heartopia/faq.json')
     faqs.value = await res.json()
   } catch (e) {
     console.error('Failed to load FAQ:', e)
