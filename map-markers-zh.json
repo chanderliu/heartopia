@@ -1,0 +1,18 @@
+[
+  { "id": 1, "category": "resource", "name": "铜矿点", "x": 15, "y": 30, "desc": "铜矿石——每日刷新。使用镐子开采。" },
+  { "id": 2, "category": "resource", "name": "铁矿点", "x": 25, "y": 45, "desc": "铁矿石——需要铁镐开采。" },
+  { "id": 3, "category": "resource", "name": "金矿点", "x": 60, "y": 20, "desc": "稀有金矿石——需要金镐开采。每周刷新。" },
+  { "id": 4, "category": "resource", "name": "伐木区", "x": 40, "y": 65, "desc": "砍伐树木获取木材。不同树种产出不同木材。" },
+  { "id": 5, "category": "resource", "name": "草药采集点", "x": 70, "y": 55, "desc": "采集草药——雨天刷新更多。" },
+  { "id": 6, "category": "resource", "name": "黏土坑", "x": 35, "y": 50, "desc": "在河岸边挖掘黏土——用于陶艺和制作。" },
+  { "id": 7, "category": "npc", "name": "布兰克的园艺商店", "x": 20, "y": 40, "desc": "出售种子、肥料和花盆。NPC：布兰克" },
+  { "id": 8, "category": "npc", "name": "鲍勃的工坊", "x": 50, "y": 25, "desc": "工具升级、矿石收购和蓝图。NPC：鲍勃" },
+  { "id": 9, "category": "npc", "name": "餐厅", "x": 55, "y": 60, "desc": "学习新食谱、购买食材。NPC：马西莫" },
+  { "id": 10, "category": "shop", "name": "种子店", "x": 30, "y": 35, "desc": "购买当季种子和肥料。" },
+  { "id": 11, "category": "shop", "name": "家具店", "x": 45, "y": 70, "desc": "为你的家园购买家具和装饰品。" },
+  { "id": 12, "category": "shop", "name": "宠物店", "x": 65, "y": 40, "desc": "领养宠物和购买宠物用品。NPC：琼太太" },
+  { "id": 13, "category": "forage", "name": "野生浆果", "x": 10, "y": 60, "desc": "蓝莓和树莓——夏季可采集。" },
+  { "id": 14, "category": "forage", "name": "蘑菇点", "x": 75, "y": 15, "desc": "秋雨后出现各种蘑菇。" },
+  { "id": 15, "category": "forage", "name": "贝壳海滩", "x": 80, "y": 75, "desc": "清晨在海滩收集贝壳和珍珠。" },
+  { "id": 16, "category": "npc", "name": "比尔的钓鱼码头", "x": 85, "y": 50, "desc": "购买鱼饵和钓鱼竿。NPC：比尔" }
+]
